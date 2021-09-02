@@ -1,0 +1,39 @@
+jason huggins -- 2004 -- he is an employee of google.
+
+Selenium automates only browser.
+
+Selenium have 4 generations.
+1) selenium ide --> record and replay --> extension of chrome browser/firefox 
+   you can record and convert recording to java code.
+ 
+2) Selenium RC --> remote control (deprecated)  -- rc is a jar file which comes 
+   with certain servers and it will convert java code and perform the action 
+   java -jar selenium-standalone-server-3.14.59.jar 
+
+3) Selenium Webdriver --> jar file --> widely used technology 
+   
+   WebDriver -- interface and it has several methods , the browser drivers
+   implemnted all the methods of Webdriver interface so we just make use of them 
+   
+   ChromeDriver , FirefoxDriver , EdgeDriver , IEDriver , safari , opera , htmlunit 
+
+4) Selenium Grid --> to test in different version of browsers , to achieve parallel
+   testing , scalability , headless testing and compatability testing.
+   
+   
+   
+Build Management tool: maven --> xml file -- version controling 
+                       docker -- for scalability.
+                       Zalenium --
+                       VMC -- you can see the actual execution of test.
+   
+Framesworks: 
+   DDF -- Data Driven Framework --> single test with multiple testdata -- scrapping project 
+   POM -- Page Object model --> reusability of the components.
+
+Unit Testing Frameworks: 
+   JUnit - java unit testing framework 
+   TestNG - Test New Gen -- it is mostly popular tool
+
+Reporting tool: 
+   Extent Report.

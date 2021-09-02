@@ -1,0 +1,20 @@
+Selenium Architechture:
+
+
+Selenium WebDriver: 40 methods and we use around 8 methods
+get, getText , getElement, getCurrentURl , SendKeys , Click , Select , getTitle
+
+
+GmailLogin :
+
+1)go to google
+2)search gmail 
+3)click on gmail website 
+
+1) gmail.com url ---> HomePage
+4)login page 
+5)enterusername 
+6)enter password
+7)click on submit 
+
+DOM : document object model
