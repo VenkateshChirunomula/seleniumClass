@@ -36,8 +36,6 @@ public class GmailLogin {
 	public static void pageAssertion()
 	{
 		
-		
-		
 		String actualpageTitle = "GMail";
 		
 		String expectedpageTitle = driver.getTitle();
