@@ -1,0 +1,19 @@
+Locators: searching 
+
+types : id , name , xpath , css , tagname , linktext , partial link text , classname 
+
+id , name are unique locators --> 1st preference 
+
+xpath --> absolute and relative 
+watch naveen automatin labs xpath tutorial.
+
+link text  --> only if we have hyper link.
+
+UserActions : 
+
+1) text field -- sendkeys 
+2) links , button -- click 
+3) scrolling -- javascript scroll
+4) dropdown -- select 
+
+
