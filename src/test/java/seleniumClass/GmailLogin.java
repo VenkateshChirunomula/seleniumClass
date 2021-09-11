@@ -6,12 +6,13 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 public class GmailLogin {
 
 	static WebDriver driver;
 	public static void openUrl()
 	{
-		WebDriverManager.edgedriver().setup();
+		WebDriverManager.edgedriver().browserVersion("92").setup();
 		driver = new EdgeDriver();
 		driver.get("https://gmail.com");
 		
