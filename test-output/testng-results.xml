@@ -2,29 +2,29 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24141" started-at="2021-09-11T08:56:46 IST" finished-at="2021-09-11T08:57:11 IST">
+  <suite name="Default suite" duration-ms="36502" started-at="2021-09-14T08:42:38 IST" finished-at="2021-09-14T08:43:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24141" started-at="2021-09-11T08:56:46 IST" finished-at="2021-09-11T08:57:11 IST">
-      <class name="seleniumClass.AdminTest">
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:seleniumClass.AdminTest@436e852b]" name="openUrl" is-config="true" duration-ms="18695" started-at="2021-09-11T08:56:46 IST" finished-at="2021-09-11T08:57:05 IST">
+    <test name="Default test" duration-ms="36502" started-at="2021-09-14T08:42:38 IST" finished-at="2021-09-14T08:43:15 IST">
+      <class name="seleniumClass.EmployeeTest">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:seleniumClass.EmployeeTest@32d2fa64]" name="openUrl" is-config="true" duration-ms="22424" started-at="2021-09-14T08:42:38 IST" finished-at="2021-09-14T08:43:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="FAIL" signature="admintest()[pri:0, instance:seleniumClass.AdminTest@436e852b]" name="admintest" duration-ms="2921" started-at="2021-09-11T08:57:05 IST" finished-at="2021-09-11T08:57:08 IST">
+        <test-method status="FAIL" signature="employeeInfo()[pri:0, instance:seleniumClass.EmployeeTest@32d2fa64]" name="employeeInfo" duration-ms="11689" started-at="2021-09-14T08:43:01 IST" finished-at="2021-09-14T08:43:12 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [NinaPatel] but found [Nina.Patel]]]>
+              <![CDATA[expected [Odis] but found [Odiss]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [NinaPatel] but found [Nina.Patel]
+              <![CDATA[java.lang.AssertionError: expected [Odis] but found [Odiss]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at seleniumClass.AdminTest.admintest(AdminTest.java:47)
+at seleniumClass.EmployeeTest.employeeInfo(EmployeeTest.java:40)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -58,12 +58,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- admintest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:seleniumClass.AdminTest@436e852b]" name="logout" is-config="true" duration-ms="2436" started-at="2021-09-11T08:57:08 IST" finished-at="2021-09-11T08:57:11 IST">
+        </test-method> <!-- employeeInfo -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:seleniumClass.EmployeeTest@32d2fa64]" name="logout" is-config="true" duration-ms="2308" started-at="2021-09-14T08:43:12 IST" finished-at="2021-09-14T08:43:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- seleniumClass.AdminTest -->
+      </class> <!-- seleniumClass.EmployeeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumClass.AdminTest">
+      <class name="seleniumClass.EmployeeTest">
         <methods>
-          <include name="logout"/>
-          <include name="admintest"/>
+          <include name="employeeInfo"/>
           <include name="openUrl"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- seleniumClass.AdminTest -->
+      </class> <!-- seleniumClass.EmployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

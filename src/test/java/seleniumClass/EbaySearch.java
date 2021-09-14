@@ -17,6 +17,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@SuppressWarnings("unused")
 public class EbaySearch {
 	
 	static WebDriver driver;
@@ -30,6 +31,7 @@ public class EbaySearch {
 		driver.get("https://ebay.com");
 		
 	}
+	@SuppressWarnings("deprecation")
 	@Test
 	public void clickDailyDeals() throws Exception
 	{
